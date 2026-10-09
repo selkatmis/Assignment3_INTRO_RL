@@ -1,6 +1,7 @@
-torch
-numpy
-gym>=0.26.0
-pandas
 matplotlib
 openpyxl
+gym>=0.26.0
+gymnasium
+pandas
+torch
+numpy==1.26.4
