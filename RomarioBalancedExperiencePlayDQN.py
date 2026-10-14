@@ -276,10 +276,10 @@ def main(epsilon,gamma,alpha,Q_network,
                   f"Epsilon: {epsilon_copy:.3f}")
 
     env.close()
-
+    
     torch.save(evaluation_network.state_dict(), "weights/Romario_Balanced_replay.pth")
     # Storing the data needed for evaluation
-    with open(r"C:\Users\roanc\Downloads\RL-project\Romario_Balanced_replay.csv", "w",
+    with open("results/data/Romario_Balanced_replay.csv", "w",
             newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["episode", "reward", "total_env_steps",

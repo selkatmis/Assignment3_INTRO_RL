@@ -36,8 +36,6 @@ class ReplayBuffer:
     def __len__(self):
         return len(self.buffer)
 
-
-
 def select_action(state,evaluation_network,epsilon):
     """Select an action using an epsilon-greedy policy.
 

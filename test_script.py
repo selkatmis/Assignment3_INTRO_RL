@@ -91,7 +91,7 @@ def test_script():
     all_results = []
 
     # import here your trained neural network
-    trained_nn = 'semih_vanilla_dqn.pth'
+    trained_nn = 'semih_async_curriculum_dqn.pth'
 
     results = {}
     total_score = 0
