@@ -67,8 +67,6 @@ def main():
                 average = float(np.mean(scores))
                 std = float(np.std(scores))
                 pole_writer.writerow([evaluation, float(length), average, std])
-                trials_csv.flush()
-                pole_csv.flush()
 
                 results[f'Avg_{round(float(length), 2)}'] = average
                 results[f'Std_{round(float(length), 2)}'] = std
