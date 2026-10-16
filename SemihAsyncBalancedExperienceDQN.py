@@ -407,7 +407,7 @@ if __name__ == "__main__":
         gamma=0.99,
         alpha=0.001,
         Q_network=None,
-        episodes=500,
+        episodes=1500,
         pole_lengths=None,
         batch_size=64,
         buffer_size=50000,
